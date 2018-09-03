@@ -10,10 +10,13 @@
 				padding: 0;
 				box-sizing: border-box;
 			}
+			html {
+				font-family: Arial, sans-serif;
+			}
 			div {
 				text-align: center;
 			}
-			a {
+			.blackbtn {
 				display: inline-block;
 				background-color: black;
 				width: 260px;
@@ -21,14 +24,13 @@
 				border: 3px solid orange;
 				margin: 20px 15px;
 				color: orange;
-				font-size: 24px;
-				font-family: Arial;
+				font-size: 24px;				
 				text-decoration: none;
 				text-align: center;
 				text-transform: uppercase;
 				transition: 0.3s;
 			}
-			a:hover {
+			.blackbtn:hover {
 				background-color: #333;
 				color: white;
 				border-color: black;
@@ -40,8 +42,7 @@
 				background-color: orange;
 				border-radius: 20px;
 				box-shadow: 0 0 0 10px black, 0 0 0 20px orange;
-				font-size: 40px;
-				font-family: Arial;
+				font-size: 40px;				
 				text-transform: uppercase;
 				transition: 0.3s;
 				cursor: pointer;
@@ -56,8 +57,7 @@
 				background-color: #009dff;
 				border-radius: 10px;
 				color: #fff;
-				font-size: 24px;
-				font-family: Arial, sans-serif;
+				font-size: 24px;				
 				font-weight: 800;	
 				text-transform: uppercase;		
 				letter-spacing: 0.5mm;
@@ -67,19 +67,40 @@
 			.btn2:hover {
 				background-color: #00c5ff;
 			}
+			.pinkbtn {
+				display: inline-block;
+				padding: 15px 20px;
+				margin-top: 50px;
+				background-image: linear-gradient(#ef40ac, #d11f5d);
+				background-color: #ef40ac;
+				border-radius: 4px;
+				color: #fff;
+				font-size: 24px;
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: 0.3s;
+				cursor: pointer;
+			}
+			.pinkbtn:hover {
+				background-image: linear-gradient(#ff63c3, #ef40ac);
+				background-color: #ff63c3;
+			}
 		</style>
 	</head>
 	<body>
 		<div>
-			<a href="#">Przycisk</a>
-			<a href="#">Przycisk</a>
-			<a href="#">Przycisk</a>
+			<a href="#" class="blackbtn">Przycisk</a>
+			<a href="#" class="blackbtn">Przycisk</a>
+			<a href="#" class="blackbtn">Przycisk</a>
 		</div>
 		<div>
 			<button class="btn">Button</button>
 		</div>
 		<div>
 			<button class="btn2">see more</button>
+		</div>
+		<div>
+			<a href="#" class="pinkbtn">submit</a>
 		</div>
 	</body>
 </html>

@@ -78,6 +78,7 @@ div {
 	background-image: linear-gradient(#ff63c3, #ef40ac);
 	background-color: #ff63c3;
 }
+/*button with emoticon*/
 a.first {
 	margin-top: 50px;
 	display: inline-block;
@@ -93,4 +94,22 @@ a.first {
 }
 	a.first:hover {
 	background-image: url("emoticon2.png");
+}
+a.second {
+	margin: 50px 0;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	font-family: arial;
+	padding: 20px 60px 20px 100px;
+	background-image: url("emoticons.png");
+	background-repeat: no-repeat;
+	background-color: cornflowerblue;
+	background-position: 15px 4px;
+	transition: 1s;
+}
+	a.second:hover {
+	background-position: 15px -71px;
+	background-color: navy;
 }

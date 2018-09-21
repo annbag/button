@@ -195,3 +195,28 @@ a.second {
 .btn3:hover {
 	color: #fff;
 }
+.btn4 {
+	position: relative;
+	padding : 15px 30px;
+	font-size: 40px;
+	line-height: 50px;
+	border: 3px solid #000;	
+	background-color: #71adfc;
+	cursor: pointer;
+	transition: .2s;
+	overflow: hidden;
+}
+.btn4::before {
+	content: "";
+	position: absolute;
+	left: -15%;
+	top: 0;
+	border-left: 20px solid #000;
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	transition: .3s linear;
+}
+.btn4:hover::before {
+	left: 0;
+}
+

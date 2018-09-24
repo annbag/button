@@ -317,3 +317,36 @@ a.second {
 .btn5:hover span {
 	top: -100px;
 }
+/*arrow button*/
+button.arrow {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-style: none;
+	border-radius: 50%;
+	background-color: #0066ff;
+	font-size: 40px;
+	color: #fff;
+	line-height: 60px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+button.arrow i {
+	text-shadow: 0 -15px #fff, 0 -30px #fff;
+	animation: arrow 1s linear infinite both;	
+}
+button.arrow:hover {
+	background-color: #3385ff;
+}
+button.arrow:hover i {
+	animation-duration: .7s;	
+}
+@keyframes arrow {
+	0% {
+		transform: translateY(-100%);
+	}
+	100% {
+		transform: translateY(200%);
+	}
+}

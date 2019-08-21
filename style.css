@@ -350,3 +350,15 @@ button.arrow:hover i {
 		transform: translateY(200%);
 	}
 }
+.btn6 {
+	color: #ffffff;
+	background-color: #acacac;
+	border-color: #acacac;
+	cursor: pointer;
+	border-style: solid;
+	border-radius: 40px;
+	border-width: 1px;
+	padding: 10px 40px;
+	font-size: 20px;
+}
+
